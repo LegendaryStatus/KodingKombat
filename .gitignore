@@ -16,3 +16,6 @@ KodingKombat/.vs/KodingKombat/v16/.suo
 *.vcxproj
 *.filters
 *.user
+*.db-shm
+*.db-wal
+*.opendb

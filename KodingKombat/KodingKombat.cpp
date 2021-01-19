@@ -58,7 +58,7 @@ int computer_fight(std::string comp, int c_kick, int c_punch, int c_block, int c
 {
     srand(time(NULL));
 
-    int a = std::rand() % 4;
+    int a = std::rand() % 4 + 1;
     int b = 0;
 
     std::string computer_attack_choice;
@@ -87,7 +87,7 @@ int computer_fight(std::string comp, int c_kick, int c_punch, int c_block, int c
         break;
 
     default:
-        std::cout << "Invalid selection!";
+        std::cout << "ERROR!";
     }
 
     std::cout << comp << " " << computer_attack_choice << " for " << b << " " << "dammage";
